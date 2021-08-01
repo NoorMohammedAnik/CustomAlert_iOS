@@ -13,6 +13,8 @@
 		84440A1126B6F8B6008FEC02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84440A0F26B6F8B6008FEC02 /* Main.storyboard */; };
 		84440A1326B6F8B8008FEC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84440A1226B6F8B8008FEC02 /* Assets.xcassets */; };
 		84440A1626B6F8B8008FEC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84440A1426B6F8B8008FEC02 /* LaunchScreen.storyboard */; };
+		84440A1E26B6F902008FEC02 /* AlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84440A1D26B6F902008FEC02 /* AlertView.xib */; };
+		84440A2026B7006C008FEC02 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84440A1F26B7006C008FEC02 /* AlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		84440A1226B6F8B8008FEC02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84440A1526B6F8B8008FEC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84440A1726B6F8B8008FEC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84440A1D26B6F902008FEC02 /* AlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertView.xib; sourceTree = "<group>"; };
+		84440A1F26B7006C008FEC02 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				84440A1226B6F8B8008FEC02 /* Assets.xcassets */,
 				84440A1426B6F8B8008FEC02 /* LaunchScreen.storyboard */,
 				84440A1726B6F8B8008FEC02 /* Info.plist */,
+				84440A1D26B6F902008FEC02 /* AlertView.xib */,
+				84440A1F26B7006C008FEC02 /* AlertView.swift */,
 			);
 			path = CustomAlert_iOS;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84440A1626B6F8B8008FEC02 /* LaunchScreen.storyboard in Resources */,
+				84440A1E26B6F902008FEC02 /* AlertView.xib in Resources */,
 				84440A1326B6F8B8008FEC02 /* Assets.xcassets in Resources */,
 				84440A1126B6F8B6008FEC02 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84440A0E26B6F8B6008FEC02 /* ViewController.swift in Sources */,
+				84440A2026B7006C008FEC02 /* AlertView.swift in Sources */,
 				84440A0A26B6F8B6008FEC02 /* AppDelegate.swift in Sources */,
 				84440A0C26B6F8B6008FEC02 /* SceneDelegate.swift in Sources */,
 			);
@@ -293,7 +301,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Developers.CustomAlert-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = Developers.BasicUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +320,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Developers.CustomAlert-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = Developers.BasicUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
